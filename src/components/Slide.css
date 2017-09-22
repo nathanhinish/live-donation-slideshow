@@ -1,0 +1,30 @@
+.Slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  & .Inner {
+    padding: 50px;
+  }
+
+  & .Content {
+    width: 1180px;
+    height: 600px;
+    position: relative;
+
+    & .Speaker {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+    & .LogoBar {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+    }
+  }
+}

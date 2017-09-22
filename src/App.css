@@ -1,0 +1,12 @@
+/* Size for WXGA (1366x768) */
+
+.App {
+  text-align: center;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  margin-top: 40px;
+}
